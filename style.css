@@ -180,8 +180,15 @@ body {
 }
 
 .card.success .success-wrapper {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
   opacity: 1;
   pointer-events: auto;
+  margin-top: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .success-gif {
