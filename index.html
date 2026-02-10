@@ -9,13 +9,18 @@
 <body>
   <main class="container">
     <section class="card">
+      <p class="emoji-line" aria-hidden="true">💖 🌹</p>
       <h1 class="question" id="question">Will you be my Valentine?</h1>
+      <div class="valentine-gifs" id="valentineGifs">
+        <iframe src="https://giphy.com/embed/3o7TKsQ8MJHyTASOry" class="valentine-gif" title="Hearts" width="100" height="100" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/26u4cqiYI30juCOGY" class="valentine-gif" title="Love" width="100" height="100" allowFullScreen></iframe>
+      </div>
       <div class="buttons" id="buttons">
         <button type="button" class="btn btn-yes btn-yes-movable" id="btnYes">Yes</button>
         <button type="button" class="btn btn-no" id="btnNo">No</button>
       </div>
-      <div class="fireworks-wrapper" id="fireworks" aria-hidden="true">
-        <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Celebration fireworks" class="fireworks-gif">
+      <div class="success-wrapper" id="successWrapper" aria-hidden="true">
+        <iframe id="successGif" src="https://giphy.com/embed/26BRv0ThflsHCqDrG" class="success-gif" title="Celebration" width="280" height="280" allowFullScreen></iframe>
       </div>
     </section>
     <div class="popup" id="popup" role="alert" aria-live="polite">Yes 😄</div>
